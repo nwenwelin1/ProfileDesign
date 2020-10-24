@@ -1,0 +1,102 @@
+#content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    /* width: 87%; */
+    /* margin-left: 2%;
+    margin-right: 2%; */
+}
+#first{
+    float: left;
+    margin-left: 2%;
+}
+#profileFrame{
+    width: 90%;
+    height: 50%;
+}
+ul{
+    margin-left: 2%;
+}
+#second{
+    float: right;
+    margin-right: 2%;
+    /* width: 80%; */
+}
+input[type=text] {
+width: 10px;
+border: 0 0 1px 0;
+font-size: 16px;
+background-color: white;
+background-image: url('images/searchicon.png');
+background-position: 10px 10px; 
+background-repeat: no-repeat;
+padding: 12px 20px 12px 40px;
+-webkit-transition: width 0.4s ease-in-out;
+transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 20%;
+}
+#icon{
+    list-style-type: square;
+        
+ }
+ #icon>li{
+    
+     background-color: darkseagreen;
+}
+
+#profile{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 2%;
+}
+.card{
+    border: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+#text{
+    justify-content: center;
+}
+#aboutMe{
+    margin: 2%;
+    padding: 20px;
+}
+.card-body{
+    margin-top: 30px;
+    padding-left: 30%;
+}
+
+.cardPicture{
+    padding-left: 20%;
+    margin-top: 7%;
+}
+#details{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#cardGroup{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2%;
+}
+#contact{
+    padding: 8px;
+    margin-top: 30px;
+}
+#contact>a{
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #007bff;
+    text-decoration: none;
+    color: white;
+}
+label{
+    font-weight: bold;
+}
